@@ -7,12 +7,12 @@
 </head>
 
 <body>
-    <div th:if="${age} &gt; 18">
-        <h1>"'Welcome ' + ${name} + '!'"</h1>
+    <div th:if="${age gt 18}">
+        <h1 th:text="'Welcome ' + ${name} + '!'"></h1>
     </div>
 
-    <div th:if="${age} &lt;= 18">
-        <h1>You are too young!</h1>
+    <div th:if="${age le 18}"> <!--le = less than or equal to-->
+        <h1 th:text="'You are too young!'"></h1>
     </div>
 </body>
 
