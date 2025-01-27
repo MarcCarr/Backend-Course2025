@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Homework1carrApplication<homework1carr>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "fi.haagahelia.homework1carr.Homework1carrApplication",
+            "projectName": "homework1carr",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
